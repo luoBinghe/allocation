@@ -1,0 +1,15 @@
+projects:
+  allocation-staging:
+    schemaPath: src/graphql/schema.json
+    includes:
+      - graphqlservice
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: .
+        region: us-east-1
+        apiId: tnrcdtyvnvhhxkzrwt7qkgw2x4
+        maxDepth: 2
